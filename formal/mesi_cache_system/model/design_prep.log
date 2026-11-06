@@ -1,0 +1,195 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70+336 (git sha1 8f3cc3d0c, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+
+-- Executing script file `design_prep.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: design.il
+
+2. Executing SCC pass (detecting logic loops).
+Found 0 SCCs in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+Found 0 SCCs in module mesi_cache_system_formal.
+Found 0 SCCs.
+
+3. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+4. Executing MEMORY_NORDFF pass (extracting $dff cells from memories).
+
+5. Executing ASYNC2SYNC pass.
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18887 ($adff): ARST=\rst_n, D=$0$lookahead\cpu_rsp_valid$926[1:0]$1189, Q=\cpu_rsp_valid
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18892 ($adff): ARST=\rst_n, D=$0$lookahead\cpu_rsp_rdata$928[63:0]$1191, Q=\cpu_rsp_rdata
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18897 ($adff): ARST=\rst_n, D=$0$lookahead\cpu_rsp_error$927[1:0]$1190, Q=\cpu_rsp_error
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18902 ($adff): ARST=\rst_n, D=$0\state[3:0], Q=\state
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18907 ($adff): ARST=\rst_n, D=$0$lookahead\mshr_valid$929[1:0]$1192, Q=\mshr_valid
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18912 ($adff): ARST=\rst_n, D=$0\mshr_write[1:0], Q=\mshr_write
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18917 ($adff): ARST=\rst_n, D=$0\mshr_addr[15:0], Q=\mshr_addr
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18922 ($adff): ARST=\rst_n, D=$0\mshr_size[3:0], Q=\mshr_size
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18927 ($adff): ARST=\rst_n, D=$0\mshr_wdata[63:0], Q=\mshr_wdata
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18932 ($adff): ARST=\rst_n, D=$0\rr_core[0:0], Q=\rr_core
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18937 ($adff): ARST=\rst_n, D=$0\active_core[0:0], Q=\active_core
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18942 ($adff): ARST=\rst_n, D=$0\active_write[0:0], Q=\active_write
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18947 ($adff): ARST=\rst_n, D=$0\active_addr[7:0], Q=\active_addr
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18952 ($adff): ARST=\rst_n, D=$0\active_size[1:0], Q=\active_size
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18957 ($adff): ARST=\rst_n, D=$0\active_wdata[31:0], Q=\active_wdata
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18962 ($adff): ARST=\rst_n, D=$0\active_l1_hit[0:0], Q=\active_l1_hit
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18967 ($adff): ARST=\rst_n, D=$0\active_source_valid[0:0], Q=\active_source_valid
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18972 ($adff): ARST=\rst_n, D=$0\active_peer_shared[0:0], Q=\active_peer_shared
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18977 ($adff): ARST=\rst_n, D=$0\active_peer_state[1:0], Q=\active_peer_state
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18982 ($adff): ARST=\rst_n, D=$0\active_l1_way[0:0], Q=\active_l1_way
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18987 ($adff): ARST=\rst_n, D=$0\active_l2_way[0:0], Q=\active_l2_way
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18992 ($adff): ARST=\rst_n, D=$0\active_source_data[31:0], Q=\active_source_data
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$18997 ($adff): ARST=\rst_n, D=$0\fill_data[31:0], Q=\fill_data
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19002 ($adff): ARST=\rst_n, D=$0\victim_line_data[31:0], Q=\victim_line_data
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19007 ($adff): ARST=\rst_n, D=$0\victim_dirty[0:0], Q=\victim_dirty
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19012 ($adff): ARST=\rst_n, D=$0\victim_l2_set[31:0], Q=\victim_l2_set
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19017 ($adff): ARST=\rst_n, D=$0\victim_l2_way[0:0], Q=\victim_l2_way
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19637 ($adff): ARST=\rst_n, D=$0\l1_lru_victim[0][0:0], Q=\l1_lru_victim[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19642 ($adff): ARST=\rst_n, D=$0\l1_lru_victim[1][0:0], Q=\l1_lru_victim[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19647 ($adff): ARST=\rst_n, D=$0\l1_lru_victim[2][0:0], Q=\l1_lru_victim[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19652 ($adff): ARST=\rst_n, D=$0\l1_lru_victim[3][0:0], Q=\l1_lru_victim[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19657 ($adff): ARST=\rst_n, D=$0\l1_valid[0][0:0], Q=\l1_valid[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19662 ($adff): ARST=\rst_n, D=$0\l1_valid[1][0:0], Q=\l1_valid[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19667 ($adff): ARST=\rst_n, D=$0\l1_valid[2][0:0], Q=\l1_valid[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19672 ($adff): ARST=\rst_n, D=$0\l1_valid[3][0:0], Q=\l1_valid[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19677 ($adff): ARST=\rst_n, D=$0\l1_valid[4][0:0], Q=\l1_valid[4]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19682 ($adff): ARST=\rst_n, D=$0\l1_valid[5][0:0], Q=\l1_valid[5]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19687 ($adff): ARST=\rst_n, D=$0\l1_valid[6][0:0], Q=\l1_valid[6]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19692 ($adff): ARST=\rst_n, D=$0\l1_valid[7][0:0], Q=\l1_valid[7]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19697 ($adff): ARST=\rst_n, D=$0\l1_state[0][1:0], Q=\l1_state[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19702 ($adff): ARST=\rst_n, D=$0\l1_state[1][1:0], Q=\l1_state[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19707 ($adff): ARST=\rst_n, D=$0\l1_state[2][1:0], Q=\l1_state[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19712 ($adff): ARST=\rst_n, D=$0\l1_state[3][1:0], Q=\l1_state[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19717 ($adff): ARST=\rst_n, D=$0\l1_state[4][1:0], Q=\l1_state[4]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19722 ($adff): ARST=\rst_n, D=$0\l1_state[5][1:0], Q=\l1_state[5]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19727 ($adff): ARST=\rst_n, D=$0\l1_state[6][1:0], Q=\l1_state[6]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19732 ($adff): ARST=\rst_n, D=$0\l1_state[7][1:0], Q=\l1_state[7]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19737 ($adff): ARST=\rst_n, D=$0\l1_tag[0][4:0], Q=\l1_tag[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19742 ($adff): ARST=\rst_n, D=$0\l1_tag[1][4:0], Q=\l1_tag[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19747 ($adff): ARST=\rst_n, D=$0\l1_tag[2][4:0], Q=\l1_tag[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19752 ($adff): ARST=\rst_n, D=$0\l1_tag[3][4:0], Q=\l1_tag[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19757 ($adff): ARST=\rst_n, D=$0\l1_tag[4][4:0], Q=\l1_tag[4]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19762 ($adff): ARST=\rst_n, D=$0\l1_tag[5][4:0], Q=\l1_tag[5]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19767 ($adff): ARST=\rst_n, D=$0\l1_tag[6][4:0], Q=\l1_tag[6]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19772 ($adff): ARST=\rst_n, D=$0\l1_tag[7][4:0], Q=\l1_tag[7]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19777 ($adff): ARST=\rst_n, D=$0\l1_data[0][31:0], Q=\l1_data[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19782 ($adff): ARST=\rst_n, D=$0\l1_data[1][31:0], Q=\l1_data[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19787 ($adff): ARST=\rst_n, D=$0\l1_data[2][31:0], Q=\l1_data[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19792 ($adff): ARST=\rst_n, D=$0\l1_data[3][31:0], Q=\l1_data[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19797 ($adff): ARST=\rst_n, D=$0\l1_data[4][31:0], Q=\l1_data[4]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19802 ($adff): ARST=\rst_n, D=$0\l1_data[5][31:0], Q=\l1_data[5]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19807 ($adff): ARST=\rst_n, D=$0\l1_data[6][31:0], Q=\l1_data[6]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19812 ($adff): ARST=\rst_n, D=$0\l1_data[7][31:0], Q=\l1_data[7]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19817 ($adff): ARST=\rst_n, D=$0\l2_lru_victim[0][0:0], Q=\l2_lru_victim[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19822 ($adff): ARST=\rst_n, D=$0\l2_lru_victim[1][0:0], Q=\l2_lru_victim[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19827 ($adff): ARST=\rst_n, D=$0\l2_valid[0][0:0], Q=\l2_valid[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19832 ($adff): ARST=\rst_n, D=$0\l2_valid[1][0:0], Q=\l2_valid[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19837 ($adff): ARST=\rst_n, D=$0\l2_valid[2][0:0], Q=\l2_valid[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19842 ($adff): ARST=\rst_n, D=$0\l2_valid[3][0:0], Q=\l2_valid[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19847 ($adff): ARST=\rst_n, D=$0\l2_dirty[0][0:0], Q=\l2_dirty[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19852 ($adff): ARST=\rst_n, D=$0\l2_dirty[1][0:0], Q=\l2_dirty[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19857 ($adff): ARST=\rst_n, D=$0\l2_dirty[2][0:0], Q=\l2_dirty[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19862 ($adff): ARST=\rst_n, D=$0\l2_dirty[3][0:0], Q=\l2_dirty[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19867 ($adff): ARST=\rst_n, D=$0\l2_tag[0][4:0], Q=\l2_tag[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19872 ($adff): ARST=\rst_n, D=$0\l2_tag[1][4:0], Q=\l2_tag[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19877 ($adff): ARST=\rst_n, D=$0\l2_tag[2][4:0], Q=\l2_tag[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19882 ($adff): ARST=\rst_n, D=$0\l2_tag[3][4:0], Q=\l2_tag[3]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19887 ($adff): ARST=\rst_n, D=$0\l2_data[0][31:0], Q=\l2_data[0]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19892 ($adff): ARST=\rst_n, D=$0\l2_data[1][31:0], Q=\l2_data[1]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19897 ($adff): ARST=\rst_n, D=$0\l2_data[2][31:0], Q=\l2_data[2]
+Replacing $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.$procdff$19902 ($adff): ARST=\rst_n, D=$0\l2_data[3][31:0], Q=\l2_data[3]
+
+6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system..
+Finding unused cells or wires in module \mesi_cache_system_formal..
+Removed 324 unused cells and 324 unused wires.
+<suppressed ~326 debug messages>
+
+7. Executing FORMALFF pass.
+
+8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system..
+Finding unused cells or wires in module \mesi_cache_system_formal..
+Removed 1 unused cells and 1 unused wires.
+<suppressed ~2 debug messages>
+
+9. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system...
+Checking module mesi_cache_system_formal...
+Warning: Wire mesi_cache_system_formal.\clk is used but has no driver.
+Found and reported 1 problems.
+
+10. Executing SETUNDEF pass (replace undef values with defined constants).
+
+11. Executing OPT pass (performing simple optimizations).
+
+11.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+<suppressed ~87 debug messages>
+Optimizing module mesi_cache_system_formal.
+
+11.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Computing hashes of 3274 cells of `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Finding duplicate cells in `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Computing hashes of 3217 cells of `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Finding duplicate cells in `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+<suppressed ~171 debug messages>
+Finding identical cells in module `\mesi_cache_system_formal'.
+Computing hashes of 155 cells of `\mesi_cache_system_formal'.
+Finding duplicate cells in `\mesi_cache_system_formal'.
+Removed a total of 57 cells.
+
+11.3. Executing OPT_DFF pass (perform DFF optimizations).
+Setting constant 0-bit at position 0 on $auto$async2sync.cc:110:execute$21217 ($ff) from module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+Setting constant 1-bit at position 0 on $auto$async2sync.cc:118:execute$21280 ($ff) from module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+
+11.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system..
+Finding unused cells or wires in module \mesi_cache_system_formal..
+Removed 441 unused cells and 566 unused wires.
+<suppressed ~478 debug messages>
+
+11.5. Rerunning OPT passes. (Removed registers in this run.)
+
+11.6. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+<suppressed ~52 debug messages>
+Optimizing module mesi_cache_system_formal.
+
+11.7. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Computing hashes of 2695 cells of `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Finding duplicate cells in `$paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system'.
+Finding identical cells in module `\mesi_cache_system_formal'.
+Computing hashes of 155 cells of `\mesi_cache_system_formal'.
+Finding duplicate cells in `\mesi_cache_system_formal'.
+Removed a total of 0 cells.
+
+11.8. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system..
+Finding unused cells or wires in module \mesi_cache_system_formal..
+Removed 0 unused cells and 52 unused wires.
+<suppressed ~1 debug messages>
+
+11.10. Finished fast OPT passes.
+
+12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system..
+Finding unused cells or wires in module \mesi_cache_system_formal..
+Removed 0 unused cells and 281 unused wires.
+<suppressed ~2 debug messages>
+
+13. Executing RTLIL backend.
+Output filename: ../model/design_prep.il
+
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: 922f2be7e4
+Yosys 0.70+336 (git sha1 8f3cc3d0c, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+Time spent: 5% 5x opt_clean (0 sec), 5% 3x chformal (0 sec), ...

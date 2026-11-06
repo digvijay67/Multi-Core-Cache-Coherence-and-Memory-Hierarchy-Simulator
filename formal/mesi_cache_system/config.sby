@@ -1,0 +1,15 @@
+[options]
+mode bmc
+depth 12
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv -DSYNTHESIS -DFORMAL mesi_cache_system.sv mesi_cache_system_formal.sv
+async2sync
+prep -top mesi_cache_system_formal
+
+[files]
+rtl/mesi_cache_system.sv
+formal/mesi_cache_system_formal.sv

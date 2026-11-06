@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2026-11-06T00:03:32" hostname="Digvijay_Laptop" package="mesi_cache_system" id="0" name="default" tests="103" errors="0" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Windows"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="default" name="build execution" time="0">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:101.21-101.49" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:101.21-101.49" id="_witness_.check_mesi_cache_system_formal_sv_101_assert_112">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:101.21-101.49" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:101.21-101.49" id="_witness_.check_mesi_cache_system_formal_sv_101_assert_88">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:102.21-102.76" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:102.21-102.76" id="_witness_.check_mesi_cache_system_formal_sv_102_assert_113">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:102.21-102.76" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:102.21-102.76" id="_witness_.check_mesi_cache_system_formal_sv_102_assert_89">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:103.21-103.76" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:103.21-103.76" id="_witness_.check_mesi_cache_system_formal_sv_103_assert_115">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:103.21-103.76" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:103.21-103.76" id="_witness_.check_mesi_cache_system_formal_sv_103_assert_91">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:117.21-117.48" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:117.21-117.48" id="_witness_.check_mesi_cache_system_formal_sv_117_assert_121">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:117.21-117.48" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:117.21-117.48" id="_witness_.check_mesi_cache_system_formal_sv_117_assert_97">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:119.21-119.49" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:119.21-119.49" id="_witness_.check_mesi_cache_system_formal_sv_119_assert_123">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:119.21-119.49" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:119.21-119.49" id="_witness_.check_mesi_cache_system_formal_sv_119_assert_99">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:127.17-127.39" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:127.17-127.39" id="_witness_.check_mesi_cache_system_formal_sv_127_assert_127">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:128.17-128.60" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:128.17-128.60" id="_witness_.check_mesi_cache_system_formal_sv_128_assert_128">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:129.17-129.58" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:129.17-129.58" id="_witness_.check_mesi_cache_system_formal_sv_129_assert_130">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:130.17-130.60" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:130.17-130.60" id="_witness_.check_mesi_cache_system_formal_sv_130_assert_132">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal at mesi_cache_system_formal.sv:144.17-144.50" time="0" type="ASSERT" location="mesi_cache_system_formal.sv:144.17-144.50" id="_witness_.check_mesi_cache_system_formal_sv_144_assert_142">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3312">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3318">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3324">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3330">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3336">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3342">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3348">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1000.29-1003.82" time="0" type="ASSERT" location="mesi_cache_system.sv:1000.29-1003.82" id="_witness_.check_mesi_cache_system_sv_1000_assert_3354">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3365">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3430">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3495">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3560">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3625">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3690">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3755">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1020.29-1020.93" time="0" type="ASSERT" location="mesi_cache_system.sv:1020.29-1020.93" id="_witness_.check_mesi_cache_system_sv_1020_assert_3820">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3388">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3453">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3518">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3583">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3648">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3713">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3778">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1036.29-1036.53" time="0" type="ASSERT" location="mesi_cache_system.sv:1036.29-1036.53" id="_witness_.check_mesi_cache_system_sv_1036_assert_3843">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3424">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3489">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3554">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3619">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3684">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3749">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3814">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1043.29-1045.80" time="0" type="ASSERT" location="mesi_cache_system.sv:1043.29-1045.80" id="_witness_.check_mesi_cache_system_sv_1043_assert_3879">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3890">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3910">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3930">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3950">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3970">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_3990">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4010">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4030">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4050">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4070">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4090">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4110">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4130">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4150">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4170">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1062.37-1065.100" time="0" type="ASSERT" location="mesi_cache_system.sv:1062.37-1065.100" id="_witness_.check_mesi_cache_system_sv_1062_assert_4190">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3898">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3918">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3938">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3958">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3978">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_3998">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4018">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4038">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4058">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4078">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4098">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4118">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4138">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4158">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4178">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1066.37-1067.89" time="0" type="ASSERT" location="mesi_cache_system.sv:1066.37-1067.89" id="_witness_.check_mesi_cache_system_sv_1066_assert_4198">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1071.13-1073.87" time="0" type="ASSERT" location="mesi_cache_system.sv:1071.13-1073.87" id="_witness_.check_mesi_cache_system_sv_1071_assert_4210">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1075.17-1075.56" time="0" type="ASSERT" location="mesi_cache_system.sv:1075.17-1075.56" id="_witness_.check_mesi_cache_system_sv_1075_assert_4216">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1076.17-1076.58" time="0" type="ASSERT" location="mesi_cache_system.sv:1076.17-1076.58" id="_witness_.check_mesi_cache_system_sv_1076_assert_4218">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1077.17-1077.59" time="0" type="ASSERT" location="mesi_cache_system.sv:1077.17-1077.59" id="_witness_.check_mesi_cache_system_sv_1077_assert_4220">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:1081.17-1081.57" time="0" type="ASSERT" location="mesi_cache_system.sv:1081.17-1081.57" id="_witness_.check_mesi_cache_system_sv_1081_assert_4228">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:956.13-956.38" time="0" type="ASSERT" location="mesi_cache_system.sv:956.13-956.38" id="_witness_.check_mesi_cache_system_sv_956_assert_3206">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:957.13-957.38" time="0" type="ASSERT" location="mesi_cache_system.sv:957.13-957.38" id="_witness_.check_mesi_cache_system_sv_957_assert_3208">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:958.13-958.41" time="0" type="ASSERT" location="mesi_cache_system.sv:958.13-958.41" id="_witness_.check_mesi_cache_system_sv_958_assert_3210">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:959.13-959.36" time="0" type="ASSERT" location="mesi_cache_system.sv:959.13-959.36" id="_witness_.check_mesi_cache_system_sv_959_assert_3212">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3214">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3216">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3218">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3220">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3222">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3224">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3226">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:963.25-963.80" time="0" type="ASSERT" location="mesi_cache_system.sv:963.25-963.80" id="_witness_.check_mesi_cache_system_sv_963_assert_3228">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:970.21-970.63" time="0" type="ASSERT" location="mesi_cache_system.sv:970.21-970.63" id="_witness_.check_mesi_cache_system_sv_970_assert_3230">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:970.21-970.63" time="0" type="ASSERT" location="mesi_cache_system.sv:970.21-970.63" id="_witness_.check_mesi_cache_system_sv_970_assert_3232">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:970.21-970.63" time="0" type="ASSERT" location="mesi_cache_system.sv:970.21-970.63" id="_witness_.check_mesi_cache_system_sv_970_assert_3234">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:970.21-970.63" time="0" type="ASSERT" location="mesi_cache_system.sv:970.21-970.63" id="_witness_.check_mesi_cache_system_sv_970_assert_3236">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:975.17-975.76" time="0" type="ASSERT" location="mesi_cache_system.sv:975.17-975.76" id="_witness_.check_mesi_cache_system_sv_975_assert_3247">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:976.17-976.76" time="0" type="ASSERT" location="mesi_cache_system.sv:976.17-976.76" id="_witness_.check_mesi_cache_system_sv_976_assert_3251">
+</testcase>
+<testcase classname="default" name="Property ASSERT in mesi_cache_system_formal/dut at mesi_cache_system.sv:977.17-978.55" time="0" type="ASSERT" location="mesi_cache_system.sv:977.17-978.55" id="_witness_.check_mesi_cache_system_sv_977_assert_3255">
+</testcase>
+<system-out>SBY  0:03:11 [formal\mesi_cache_system] Removing directory 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system'.
+SBY  0:03:11 [formal\mesi_cache_system] Copy 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\rtl\mesi_cache_system.sv' to 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system\src\mesi_cache_system.sv'.
+SBY  0:03:11 [formal\mesi_cache_system] Copy 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system_formal.sv' to 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system\src\mesi_cache_system_formal.sv'.
+SBY  0:03:11 [formal\mesi_cache_system] engine_0: smtbmc boolector
+SBY  0:03:11 [formal\mesi_cache_system] base: starting process &quot;cd formal\mesi_cache_system/src&amp; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_tag with list of registers. See mesi_cache_system.sv:966
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_state with list of registers. See mesi_cache_system.sv:965
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_valid with list of registers. See mesi_cache_system.sv:964
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_data with list of registers. See mesi_cache_system.sv:444
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_tag with list of registers. See mesi_cache_system.sv:443
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_dirty with list of registers. See mesi_cache_system.sv:442
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_valid with list of registers. See mesi_cache_system.sv:441
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_lru_victim with list of registers. See mesi_cache_system.sv:439
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_data with list of registers. See mesi_cache_system.sv:434
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_tag with list of registers. See mesi_cache_system.sv:433
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_state with list of registers. See mesi_cache_system.sv:432
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_valid with list of registers. See mesi_cache_system.sv:431
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_lru_victim with list of registers. See mesi_cache_system.sv:429
+SBY  0:03:16 [formal\mesi_cache_system] base: Warning: Wire mesi_cache_system_formal.\clk is used but has no driver.
+SBY  0:03:17 [formal\mesi_cache_system] base: finished (returncode=0)
+SBY  0:03:17 [formal\mesi_cache_system] prep: starting process &quot;cd formal\mesi_cache_system/model&amp; yosys -ql design_prep.log design_prep.ys&quot;
+SBY  0:03:18 [formal\mesi_cache_system] prep: Warning: Wire mesi_cache_system_formal.\clk is used but has no driver.
+SBY  0:03:19 [formal\mesi_cache_system] prep: finished (returncode=0)
+SBY  0:03:19 [formal\mesi_cache_system] smt2: starting process &quot;cd formal\mesi_cache_system/model&amp; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY  0:03:19 [formal\mesi_cache_system] smt2: finished (returncode=0)
+SBY  0:03:19 [formal\mesi_cache_system] engine_0: starting process &quot;cd formal\mesi_cache_system&amp; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 12  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY  0:03:19 [formal\mesi_cache_system] engine_0: ##   0:00:00  Solver: boolector
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 1..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 1..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 2..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 2..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 3..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 3..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 4..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 4..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 5..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 5..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 6..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assertions in step 6..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 7..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assertions in step 7..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 8..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assertions in step 8..
+SBY  0:03:23 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assumptions in step 9..
+SBY  0:03:23 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assertions in step 9..
+SBY  0:03:26 [formal\mesi_cache_system] engine_0: ##   0:00:06  Checking assumptions in step 10..
+SBY  0:03:26 [formal\mesi_cache_system] engine_0: ##   0:00:06  Checking assertions in step 10..
+SBY  0:03:27 [formal\mesi_cache_system] engine_0: ##   0:00:08  Checking assumptions in step 11..
+SBY  0:03:28 [formal\mesi_cache_system] engine_0: ##   0:00:08  Checking assertions in step 11..
+SBY  0:03:31 [formal\mesi_cache_system] engine_0: ##   0:00:12  Status: passed
+SBY  0:03:32 [formal\mesi_cache_system] engine_0: finished (returncode=0)
+SBY  0:03:32 [formal\mesi_cache_system] engine_0: Status returned by engine: pass
+SBY  0:03:32 [formal\mesi_cache_system] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:20 (20)
+SBY  0:03:32 [formal\mesi_cache_system] summary: Elapsed process time unvailable on Windows
+SBY  0:03:32 [formal\mesi_cache_system] summary: engine_0 (smtbmc boolector) returned pass
+SBY  0:03:32 [formal\mesi_cache_system] summary: engine_0 did not produce any traces
+SBY  0:03:32 [formal\mesi_cache_system] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+[options]
+mode prove
+depth 24
+
+[engines]
+abc pdr
+
+[script]
+read -formal -sv -DSYNTHESIS mesi_controller.sv mesi_controller_formal.sv
+async2sync
+prep -top mesi_controller_formal
+
+[files]
+rtl/mesi_controller.sv
+formal/mesi_controller_formal.sv

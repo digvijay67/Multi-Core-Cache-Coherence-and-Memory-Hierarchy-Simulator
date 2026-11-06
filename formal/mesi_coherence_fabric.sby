@@ -1,0 +1,17 @@
+[options]
+mode prove
+depth 24
+
+[engines]
+abc pdr
+
+[script]
+read -formal -sv -DSYNTHESIS mesi_controller.sv mesi_bus_arbiter.sv mesi_coherence_fabric.sv mesi_coherence_fabric_formal.sv
+async2sync
+prep -top mesi_coherence_fabric_formal
+
+[files]
+rtl/mesi_controller.sv
+rtl/mesi_bus_arbiter.sv
+rtl/mesi_coherence_fabric.sv
+formal/mesi_coherence_fabric_formal.sv

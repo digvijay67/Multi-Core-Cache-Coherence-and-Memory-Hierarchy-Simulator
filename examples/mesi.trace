@@ -1,0 +1,9 @@
+# Reads by separate cores share the line; a later write invalidates the other copy.
+R 0 0x1000
+R 1 0x1000
+W 0 0x1000 0xBEEF
+R 1 0x1000
+W 1 0x1080 0xCAFE
+R 0 0x1080
+R 2 0x2000
+R 2 0x2000

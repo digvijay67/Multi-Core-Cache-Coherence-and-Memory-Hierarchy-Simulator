@@ -1,0 +1,55 @@
+read_verilog -sv -DSYNTHESIS rtl/mesi_controller.sv
+hierarchy -check -top mesi_controller
+proc
+opt
+check -assert
+select -assert-none t:$dlatch
+synth -top mesi_controller
+check -assert
+select -assert-none t:$dlatch
+select -assert-none t:$_DLATCH_*
+tee -o build/synthesis/mesi_controller_stat.txt stat
+write_json build/synthesis/mesi_controller.json
+
+design -reset
+read_verilog -sv -DSYNTHESIS rtl/mesi_bus_arbiter.sv
+hierarchy -check -top mesi_bus_arbiter
+proc
+opt
+check -assert
+select -assert-none t:$dlatch
+synth -top mesi_bus_arbiter
+check -assert
+select -assert-none t:$dlatch
+select -assert-none t:$_DLATCH_*
+tee -o build/synthesis/mesi_bus_arbiter_stat.txt stat
+write_json build/synthesis/mesi_bus_arbiter.json
+
+design -reset
+read_verilog -sv -DSYNTHESIS rtl/mesi_controller.sv rtl/mesi_bus_arbiter.sv rtl/mesi_coherence_fabric.sv
+hierarchy -check -top mesi_coherence_fabric
+proc
+opt
+check -assert
+select -assert-none t:$dlatch
+synth -top mesi_coherence_fabric
+check -assert
+select -assert-none t:$dlatch
+select -assert-none t:$_DLATCH_*
+tee -o build/synthesis/mesi_coherence_fabric_stat.txt stat
+write_json build/synthesis/mesi_coherence_fabric.json
+
+design -reset
+read_verilog -sv -DSYNTHESIS rtl/mesi_cache_system.sv
+hierarchy -check -top mesi_cache_system
+proc
+opt
+check -assert
+select -assert-none t:$dlatch
+# ABC's Windows temporary BLIF handling fails for this expanded cache netlist.
+synth -top mesi_cache_system -noabc
+check -assert
+select -assert-none t:$dlatch
+select -assert-none t:$_DLATCH_*
+tee -o build/synthesis/mesi_cache_system_stat.txt stat
+# Storage expands to hundreds of thousands of cells; keep the cache report concise.

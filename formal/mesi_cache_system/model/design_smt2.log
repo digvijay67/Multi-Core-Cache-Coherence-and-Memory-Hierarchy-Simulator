@@ -1,0 +1,141 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70+336 (git sha1 8f3cc3d0c, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+
+-- Executing script file `design_smt2.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: design_prep.il
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `mesi_cache_system_formal'. Setting top module to mesi_cache_system_formal.
+
+2.1. Analyzing design hierarchy..
+Top module:  \mesi_cache_system_formal
+Used module:     $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system
+
+2.2. Analyzing design hierarchy..
+Top module:  \mesi_cache_system_formal
+Used module:     $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system
+Removed 0 unused modules.
+Module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system directly or indirectly contains formal properties -> setting "keep" attribute.
+Module mesi_cache_system_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+3. Executing FORMALFF pass.
+
+4. Executing DFFUNMAP pass (unmap clock enable and synchronous reset from FFs).
+
+5. Printing statistics.
+
+=== $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2622 wires
+    22867 wire bits
+      440 public wires
+     5144 public wire bits
+       20 ports
+      239 port bits
+     2697 cells
+       36   $add
+       24   $and
+      112   $anyinit
+      198   $anyseq
+       88   $assert
+        1   $assume
+      297   $eq
+      117   $ff
+      176   $logic_and
+       93   $logic_not
+       90   $logic_or
+       32   $lt
+     1156   $mux
+       29   $ne
+       14   $neg
+       19   $not
+       29   $or
+      124   $pmux
+       10   $reduce_bool
+       30   $shift
+       22   $shiftx
+
+=== mesi_cache_system_formal ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      124 wires
+      748 wire bits
+       37 public wires
+      474 public wire bits
+      154 cells
+       11   $anyinit
+       11   $anyseq
+       15   $assert
+       15   $assume
+       16   $eq
+        6   $ff
+       14   $logic_and
+       11   $logic_not
+       55   $mux
+        1 submodules
+        1   $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     2851 mesi_cache_system_formal
+     2697 $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system
+
+        +----------Count including submodules.
+        | 
+     2746 wires
+    23615 wire bits
+      477 public wires
+     5618 public wire bits
+       20 ports
+      239 port bits
+        - memories
+        - memory bits
+        - processes
+     2851 cells
+       36   $add
+       24   $and
+      123   $anyinit
+      209   $anyseq
+      103   $assert
+       16   $assume
+      313   $eq
+      123   $ff
+      190   $logic_and
+      104   $logic_not
+       90   $logic_or
+       32   $lt
+     1211   $mux
+       29   $ne
+       14   $neg
+       19   $not
+       29   $or
+      124   $pmux
+       10   $reduce_bool
+       30   $shift
+       22   $shiftx
+        1 submodules
+        1   $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system
+
+6. Executing SMT2 backend.
+
+6.1. Executing BMUXMAP pass.
+
+6.2. Executing DEMUXMAP pass.
+Creating SMT-LIBv2 representation of module $paramod$ae48de989c449c23b2798da4774e1503cc793931\mesi_cache_system.
+Creating SMT-LIBv2 representation of module mesi_cache_system_formal.
+
+End of script. Logfile hash: d52e1e78dc
+Yosys 0.70+336 (git sha1 8f3cc3d0c, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+Time spent: 11% 2x write_smt2 (0 sec), 11% 2x read_rtlil (0 sec), ...

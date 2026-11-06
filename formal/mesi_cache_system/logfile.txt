@@ -1,0 +1,59 @@
+SBY  0:03:11 [formal\mesi_cache_system] Removing directory 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system'.
+SBY  0:03:11 [formal\mesi_cache_system] Copy 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\rtl\mesi_cache_system.sv' to 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system\src\mesi_cache_system.sv'.
+SBY  0:03:11 [formal\mesi_cache_system] Copy 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system_formal.sv' to 'C:\Users\digvi\Multi-Core Cache Coherence and Memory Hierarchy Simulator\formal\mesi_cache_system\src\mesi_cache_system_formal.sv'.
+SBY  0:03:11 [formal\mesi_cache_system] engine_0: smtbmc boolector
+SBY  0:03:11 [formal\mesi_cache_system] base: starting process "cd formal\mesi_cache_system/src& yosys -ql ../model/design.log ../model/design.ys"
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_tag with list of registers. See mesi_cache_system.sv:966
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_state with list of registers. See mesi_cache_system.sv:965
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \formal_previous_l1_valid with list of registers. See mesi_cache_system.sv:964
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_data with list of registers. See mesi_cache_system.sv:444
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_tag with list of registers. See mesi_cache_system.sv:443
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_dirty with list of registers. See mesi_cache_system.sv:442
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_valid with list of registers. See mesi_cache_system.sv:441
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l2_lru_victim with list of registers. See mesi_cache_system.sv:439
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_data with list of registers. See mesi_cache_system.sv:434
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_tag with list of registers. See mesi_cache_system.sv:433
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_state with list of registers. See mesi_cache_system.sv:432
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_valid with list of registers. See mesi_cache_system.sv:431
+SBY  0:03:11 [formal\mesi_cache_system] base: Warning: Replacing memory \l1_lru_victim with list of registers. See mesi_cache_system.sv:429
+SBY  0:03:16 [formal\mesi_cache_system] base: Warning: Wire mesi_cache_system_formal.\clk is used but has no driver.
+SBY  0:03:17 [formal\mesi_cache_system] base: finished (returncode=0)
+SBY  0:03:17 [formal\mesi_cache_system] prep: starting process "cd formal\mesi_cache_system/model& yosys -ql design_prep.log design_prep.ys"
+SBY  0:03:18 [formal\mesi_cache_system] prep: Warning: Wire mesi_cache_system_formal.\clk is used but has no driver.
+SBY  0:03:19 [formal\mesi_cache_system] prep: finished (returncode=0)
+SBY  0:03:19 [formal\mesi_cache_system] smt2: starting process "cd formal\mesi_cache_system/model& yosys -ql design_smt2.log design_smt2.ys"
+SBY  0:03:19 [formal\mesi_cache_system] smt2: finished (returncode=0)
+SBY  0:03:19 [formal\mesi_cache_system] engine_0: starting process "cd formal\mesi_cache_system& yosys-smtbmc -s boolector --presat --unroll --noprogress -t 12  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY  0:03:19 [formal\mesi_cache_system] engine_0: ##   0:00:00  Solver: boolector
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 1..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 1..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 2..
+SBY  0:03:20 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 2..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 3..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 3..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 4..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 4..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assumptions in step 5..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:01  Checking assertions in step 5..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 6..
+SBY  0:03:21 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assertions in step 6..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 7..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assertions in step 7..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:02  Checking assumptions in step 8..
+SBY  0:03:22 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assertions in step 8..
+SBY  0:03:23 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assumptions in step 9..
+SBY  0:03:23 [formal\mesi_cache_system] engine_0: ##   0:00:03  Checking assertions in step 9..
+SBY  0:03:26 [formal\mesi_cache_system] engine_0: ##   0:00:06  Checking assumptions in step 10..
+SBY  0:03:26 [formal\mesi_cache_system] engine_0: ##   0:00:06  Checking assertions in step 10..
+SBY  0:03:27 [formal\mesi_cache_system] engine_0: ##   0:00:08  Checking assumptions in step 11..
+SBY  0:03:28 [formal\mesi_cache_system] engine_0: ##   0:00:08  Checking assertions in step 11..
+SBY  0:03:31 [formal\mesi_cache_system] engine_0: ##   0:00:12  Status: passed
+SBY  0:03:32 [formal\mesi_cache_system] engine_0: finished (returncode=0)
+SBY  0:03:32 [formal\mesi_cache_system] engine_0: Status returned by engine: pass
+SBY  0:03:32 [formal\mesi_cache_system] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:20 (20)
+SBY  0:03:32 [formal\mesi_cache_system] summary: Elapsed process time unvailable on Windows
+SBY  0:03:32 [formal\mesi_cache_system] summary: engine_0 (smtbmc boolector) returned pass
+SBY  0:03:32 [formal\mesi_cache_system] summary: engine_0 did not produce any traces
+SBY  0:03:32 [formal\mesi_cache_system] DONE (PASS, rc=0)

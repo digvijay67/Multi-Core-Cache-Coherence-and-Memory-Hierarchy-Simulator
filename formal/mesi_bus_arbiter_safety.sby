@@ -1,0 +1,16 @@
+[options]
+mode prove
+depth 20
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv -DSYNTHESIS mesi_bus_arbiter.sv mesi_bus_arbiter_formal.sv
+chparam -set FAIRNESS_MODE 0 mesi_bus_arbiter_formal
+async2sync
+prep -top mesi_bus_arbiter_formal
+
+[files]
+rtl/mesi_bus_arbiter.sv
+formal/mesi_bus_arbiter_formal.sv
