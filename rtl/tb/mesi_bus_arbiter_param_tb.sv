@@ -131,6 +131,51 @@ module mesi_bus_arbiter_param_tb #(
             $fatal(1, "CORE_COUNT=%0d unexpected grant total=%0d",
                    CORE_COUNT, accepted_count);
 
+        @(negedge clk);
+        rst_n = 1'b0;
+        request_valid = '0;
+        grant_ready = 1'b0;
+        repeat (2) @(posedge clk);
+        @(negedge clk);
+        rst_n = 1'b1;
+        request_valid = '1;
+        for (integer core = 0; core < CORE_COUNT; core = core + 1)
+            request_cmd[core] = (core % 3) + 1;
+        #1;
+
+        for (integer grant_index = 0; grant_index < 2 * CORE_COUNT; grant_index++) begin
+            expected_core = grant_index % CORE_COUNT;
+            @(negedge clk);
+            grant_ready = 1'b0;
+            #1;
+            if (!grant_valid || grant_core !== expected_core[CORE_ID_WIDTH-1:0]
+                || grant_cmd !== request_cmd[expected_core])
+                $fatal(1, "CORE_COUNT=%0d fairness round expected core=%0d command=%0d",
+                       CORE_COUNT, expected_core, request_cmd[expected_core]);
+            stalled_core = grant_core;
+            stalled_command = grant_cmd;
+
+            repeat (2) begin
+                @(posedge clk);
+                #1;
+                if (!grant_valid || grant_core !== stalled_core
+                    || grant_cmd !== stalled_command)
+                    $fatal(1, "CORE_COUNT=%0d grant changed during fairness-test stall",
+                           CORE_COUNT);
+            end
+
+            @(negedge clk);
+            grant_ready = 1'b1;
+            #1;
+            if (!grant_valid || grant_core !== stalled_core
+                || grant_cmd !== stalled_command)
+                $fatal(1, "CORE_COUNT=%0d stalled grant changed before acceptance",
+                       CORE_COUNT);
+            @(posedge clk);
+            #1;
+            accepted_count = accepted_count + 1;
+        end
+
         $display("PASS: parameterized arbiter CORE_COUNT=%0d grants=%0d",
                  CORE_COUNT, accepted_count);
         $finish;
